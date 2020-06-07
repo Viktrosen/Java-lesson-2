@@ -5,6 +5,8 @@ import java.net.Socket;
 import java.sql.SQLException;
 import java.util.Iterator;
 import java.util.concurrent.ConcurrentLinkedDeque;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ClientHandler<concurrentDeque> {
     private MyServer myServer;
@@ -19,6 +21,7 @@ public class ClientHandler<concurrentDeque> {
     }
 
     public ClientHandler(MyServer myServer, Socket socket) {
+        ExecutorService executorService = Executors.newCachedThreadPool();
         try {
             this.iterator = myServer.cld.iterator();
             this.myServer = myServer;
@@ -26,7 +29,7 @@ public class ClientHandler<concurrentDeque> {
             this.in = new DataInputStream(socket.getInputStream());
             this.out = new DataOutputStream(socket.getOutputStream());
             this.name = "";
-            new Thread(() -> {
+            executorService.execute(() -> {
                 try {
                     authentication();
                     broadCastHistory();
@@ -35,8 +38,9 @@ public class ClientHandler<concurrentDeque> {
                     e.printStackTrace();
                 } finally {
                     closeConnection();
+                    executorService.shutdown();
                 }
-            }).start();
+            });
         } catch (IOException e) {
             throw new RuntimeException("Проблемы при создании обработчика клиента");
         }
