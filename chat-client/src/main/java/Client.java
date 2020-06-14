@@ -100,7 +100,7 @@ public class Client extends JFrame {
         chatArea.setEditable(false);
         chatArea.setLineWrap(true);
         add(new JScrollPane(chatArea), BorderLayout.CENTER);
-        writer = new FileWriter("rec.txt"); //создаём файл
+        writer = new FileWriter("chat-client\\rec.txt"); //создаём файл
 
         // Нижняя панель с полем для ввода сообщений и кнопкой отправки сообщений
         JPanel bottomPanel = new JPanel(new BorderLayout());

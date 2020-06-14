@@ -5,33 +5,39 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedDeque;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 public class MyServer {
     private final int PORT = 8189;
+
 
     private List<ClientHandler> clients;
     private AuthService authService;
     ConcurrentLinkedDeque<String> cld;
     public int quantityOfMsg = 0;
+    static final Logger LOGGER = LogManager.getLogger(MyServer.class);
 
     public AuthService getAuthService() {
         return authService;
     }
 
     public MyServer() {
+
         try (ServerSocket server = new ServerSocket(PORT)) {
             authService = new BaseAuthService();
             authService.start();
             clients = new ArrayList<>();
             cld = new ConcurrentLinkedDeque<>();
             while (true) {
-                System.out.println("Сервер ожидает подключения");
+                LOGGER.info("Сервер ожидает подключения");
                 Socket socket = server.accept();
-                System.out.println("Клиент подключился");
+                LOGGER.info("Клиент подключился");
                 new ClientHandler(this, socket);
             }
         } catch (IOException | SQLException e) {
-            System.out.println("Ошибка в работе сервера");
+            LOGGER.error("Ошибка в работе сервера");
         } finally {
             if (authService != null) {
                 authService.stop();

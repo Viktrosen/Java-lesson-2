@@ -1,0 +1,79 @@
+DEBUG 2020-06-13 20:10:24 [main] MyServer (MyServer.java:34) - Debug
+INFO  2020-06-13 20:10:24 [main] MyServer (MyServer.java:35) - Info
+WARN  2020-06-13 20:10:24 [main] MyServer (MyServer.java:36) - Warn
+ERROR 2020-06-13 20:10:24 [main] MyServer (MyServer.java:37) - Error
+FATAL 2020-06-13 20:10:24 [main] MyServer (MyServer.java:38) - Fatal
+INFO  2020-06-13 20:10:24 [main] MyServer (MyServer.java:39) - Сервер ожидает подключения
+DEBUG 2020-06-13 20:10:42 [main] MyServer (MyServer.java:34) - Debug
+INFO  2020-06-13 20:10:42 [main] MyServer (MyServer.java:35) - Info
+WARN  2020-06-13 20:10:42 [main] MyServer (MyServer.java:36) - Warn
+ERROR 2020-06-13 20:10:42 [main] MyServer (MyServer.java:37) - Error
+FATAL 2020-06-13 20:10:42 [main] MyServer (MyServer.java:38) - Fatal
+INFO  2020-06-13 20:10:42 [main] MyServer (MyServer.java:39) - Сервер ожидает подключения
+INFO  2020-06-13 20:10:46 [main] MyServer (MyServer.java:41) - Клиент подключился
+DEBUG 2020-06-13 20:10:46 [main] MyServer (MyServer.java:34) - Debug
+INFO  2020-06-13 20:10:46 [main] MyServer (MyServer.java:35) - Info
+WARN  2020-06-13 20:10:46 [main] MyServer (MyServer.java:36) - Warn
+ERROR 2020-06-13 20:10:46 [main] MyServer (MyServer.java:37) - Error
+FATAL 2020-06-13 20:10:46 [main] MyServer (MyServer.java:38) - Fatal
+INFO  2020-06-13 20:10:46 [main] MyServer (MyServer.java:39) - Сервер ожидает подключения
+DEBUG 2020-06-13 23:12:23 [main] MyServer (MyServer.java:34) - Debug
+INFO  2020-06-13 23:12:23 [main] MyServer (MyServer.java:35) - Info
+WARN  2020-06-13 23:12:23 [main] MyServer (MyServer.java:36) - Warn
+ERROR 2020-06-13 23:12:23 [main] MyServer (MyServer.java:37) - Error
+FATAL 2020-06-13 23:12:23 [main] MyServer (MyServer.java:38) - Fatal
+INFO  2020-06-13 23:12:23 [main] MyServer (MyServer.java:39) - Сервер ожидает подключения
+INFO  2020-06-13 23:12:30 [main] MyServer (MyServer.java:41) - Клиент подключился
+DEBUG 2020-06-13 23:12:30 [main] MyServer (MyServer.java:34) - Debug
+INFO  2020-06-13 23:12:30 [main] MyServer (MyServer.java:35) - Info
+WARN  2020-06-13 23:12:30 [main] MyServer (MyServer.java:36) - Warn
+ERROR 2020-06-13 23:12:30 [main] MyServer (MyServer.java:37) - Error
+FATAL 2020-06-13 23:12:30 [main] MyServer (MyServer.java:38) - Fatal
+INFO  2020-06-13 23:12:30 [main] MyServer (MyServer.java:39) - Сервер ожидает подключения
+INFO  2020-06-13 23:12:54 [main] MyServer (MyServer.java:41) - Клиент подключился
+DEBUG 2020-06-13 23:12:54 [main] MyServer (MyServer.java:34) - Debug
+INFO  2020-06-13 23:12:54 [main] MyServer (MyServer.java:35) - Info
+WARN  2020-06-13 23:12:54 [main] MyServer (MyServer.java:36) - Warn
+ERROR 2020-06-13 23:12:54 [main] MyServer (MyServer.java:37) - Error
+FATAL 2020-06-13 23:12:54 [main] MyServer (MyServer.java:38) - Fatal
+INFO  2020-06-13 23:12:54 [main] MyServer (MyServer.java:39) - Сервер ожидает подключения
+DEBUG 2020-06-13 23:16:52 [main] MyServer (MyServer.java:34) - Debug
+INFO  2020-06-13 23:16:52 [main] MyServer (MyServer.java:35) - Info
+WARN  2020-06-13 23:16:52 [main] MyServer (MyServer.java:36) - Warn
+ERROR 2020-06-13 23:16:52 [main] MyServer (MyServer.java:37) - Error
+FATAL 2020-06-13 23:16:52 [main] MyServer (MyServer.java:38) - Fatal
+INFO  2020-06-13 23:16:52 [main] MyServer (MyServer.java:39) - Сервер ожидает подключения
+INFO  2020-06-13 23:16:54 [main] MyServer (MyServer.java:41) - Клиент подключился
+DEBUG 2020-06-13 23:16:54 [main] MyServer (MyServer.java:34) - Debug
+INFO  2020-06-13 23:16:54 [main] MyServer (MyServer.java:35) - Info
+WARN  2020-06-13 23:16:54 [main] MyServer (MyServer.java:36) - Warn
+ERROR 2020-06-13 23:16:54 [main] MyServer (MyServer.java:37) - Error
+FATAL 2020-06-13 23:16:54 [main] MyServer (MyServer.java:38) - Fatal
+INFO  2020-06-13 23:16:54 [main] MyServer (MyServer.java:39) - Сервер ожидает подключения
+INFO  2020-06-13 23:17:08 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: Привет всем
+INFO  2020-06-13 23:17:10 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: Пока всем
+INFO  2020-06-13 23:17:12 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: /end
+INFO  2020-06-13 23:18:36 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-13 23:18:42 [main] MyServer (MyServer.java:36) - Клиент подключился
+INFO  2020-06-13 23:18:42 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-13 23:19:03 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от LonelyMan: Привет всем
+INFO  2020-06-13 23:19:08 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от LonelyMan: Виктрозен тут?
+INFO  2020-06-13 23:19:16 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от LonelyMan: Ок. Пока
+INFO  2020-06-13 23:19:21 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от LonelyMan: /end
+ERROR 2020-06-13 23:39:19 [main] BaseAuthService (BaseAuthService.java:29) - Ошибка в подключении к базе данных
+INFO  2020-06-13 23:39:19 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-13 23:39:23 [main] MyServer (MyServer.java:36) - Клиент подключился
+INFO  2020-06-13 23:39:23 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+ERROR 2020-06-13 23:47:06 [main] BaseAuthService (BaseAuthService.java:29) - Ошибка в подключении к базе данных
+INFO  2020-06-13 23:47:06 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-13 23:47:07 [main] MyServer (MyServer.java:36) - Клиент подключился
+INFO  2020-06-13 23:47:07 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-13 23:47:37 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-13 23:47:41 [main] MyServer (MyServer.java:36) - Клиент подключился
+INFO  2020-06-13 23:47:41 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-13 23:47:49 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: Првиет\
+INFO  2020-06-13 23:47:52 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: как вы?
+INFO  2020-06-13 23:47:55 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: /end
+INFO  2020-06-13 23:48:29 [main] MyServer (MyServer.java:36) - Клиент подключился
+INFO  2020-06-13 23:48:29 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-13 23:48:40 [pool-3-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: /end

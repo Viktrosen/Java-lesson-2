@@ -79,7 +79,7 @@ public class ClientHandler<concurrentDeque> {
     public void readMessages() throws IOException, SQLException {
         while (true) {
             String strFromClient = in.readUTF();
-            System.out.println("от " + name + ": " + strFromClient);
+            MyServer.LOGGER.info("от " + name + ": " + strFromClient);
             if (strFromClient.equals("/end")) {
                 return;
             }

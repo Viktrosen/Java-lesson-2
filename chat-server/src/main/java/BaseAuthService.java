@@ -22,8 +22,12 @@ public class BaseAuthService implements AuthService {
 
 
     public BaseAuthService() throws SQLException {
+        try{
         this.conn = DriverManager.getConnection("jdbc:mysql://localhost/chat?useUnicode=true&serverTimezone=UTC","root","");
-        this.statement = conn.createStatement();
+        this.statement = conn.createStatement();}
+        catch (SQLException e){
+            MyServer.LOGGER.error("Ошибка в подключении к базе данных");
+        }
     }
     @Override
     public void changeNick(String newNick, String oldNick) throws SQLException {
