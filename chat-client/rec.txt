@@ -7,7 +7,7 @@ System:
 /clients Viktrosen 
 Viktrosen зашел в чат
 /clients Viktrosen 
-Viktrosen: Првиет\
+Viktrosen: Привет\
 Viktrosen: как вы?
 /clients 
 Viktrosen вышел из чата
