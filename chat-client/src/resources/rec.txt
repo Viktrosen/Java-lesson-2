@@ -1,0 +1,9 @@
+System: 
+/auth 'логин' 'пароль' - авторизация в чате
+/w 'ник' - личное сообщение
+/exit - выход из чата
+/changenick 'новый ник' - замена ника
+/authok Viktrosen
+/clients Viktrosen 
+Viktrosen: Привет всем
+Viktrosen: Пока всем
