@@ -4,7 +4,7 @@
     <Filter type="ThresholdFilter" level="trace" />
 
     <Appenders>
-        <File name="FILE" fileName="chat-server/logfile.log" append="true">
+        <File name="FILE" fileName="chat-server/src/main/resources/logfile.log" append="true">
             <PatternLayout pattern="%-5p %d{yyyy-MM-dd HH:mm:ss} [%t] %C (%F:%L) - %m%n" />
         </File>
 

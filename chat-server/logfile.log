@@ -77,3 +77,17 @@ INFO  2020-06-13 23:47:55 [pool-2-thread-1] ClientHandler (ClientHandler.java:82
 INFO  2020-06-13 23:48:29 [main] MyServer (MyServer.java:36) - Клиент подключился
 INFO  2020-06-13 23:48:29 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
 INFO  2020-06-13 23:48:40 [pool-3-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: /end
+ERROR 2020-06-21 20:18:57 [main] BaseAuthService (BaseAuthService.java:29) - Ошибка в подключении к базе данных
+INFO  2020-06-21 20:18:57 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-21 20:20:33 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-21 20:20:39 [main] MyServer (MyServer.java:36) - Клиент подключился
+INFO  2020-06-21 20:20:39 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-21 20:20:58 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: Првиет всем
+INFO  2020-06-21 20:21:05 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: Пока всем
+INFO  2020-06-21 20:21:09 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: /end
+INFO  2020-06-21 20:23:47 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-21 20:23:50 [main] MyServer (MyServer.java:36) - Клиент подключился
+INFO  2020-06-21 20:23:50 [main] MyServer (MyServer.java:34) - Сервер ожидает подключения
+INFO  2020-06-21 20:24:04 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: Привет всем
+INFO  2020-06-21 20:24:06 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: Пока всем
+INFO  2020-06-21 20:24:08 [pool-2-thread-1] ClientHandler (ClientHandler.java:82) - от Viktrosen: /end
